@@ -2,8 +2,8 @@
     // サニタイジング
     $post = array();
     foreach ($_POST as $k => $v) {
-        // $post[$k] = htmlspecialchars($v, ENT_QUOTES, 'UTF-8');
-        $post[$k] = $v;
+        $post[$k] = htmlspecialchars($v, ENT_QUOTES, 'UTF-8');
+        // $post[$k] = $v;
     }
 
     try {

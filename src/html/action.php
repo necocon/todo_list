@@ -1,8 +1,4 @@
 <?php
-// echo '<pre>';
-// var_dump($_POST);
-// echo '</pre>';
-// exit;
     // POSTデータがないときは、トッページにリダイレクト
     if (empty($_POST)) {
         header('Location: ./');
